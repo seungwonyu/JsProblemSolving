@@ -17,3 +17,4 @@ function car(distance) {
 car(16);
 
 // 다음에 도전^ㅡ^
+// 도전하기!
