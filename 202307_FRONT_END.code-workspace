@@ -1,0 +1,26 @@
+{
+  "folders": [
+	{
+		"path": "../.."
+	},
+	{
+		"path": "../../../gitstudy"
+	},
+	{
+		"path": "../../../git_profile"
+	},
+	{
+		"path": "../../../javascript_deepdive"
+	},
+	{
+		"path": "../../../hyundai"
+	},
+	{
+		"path": "../../../chs"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "hyundai",
+    "liveServer.settings.useLocalIp": true
+  }
+}
