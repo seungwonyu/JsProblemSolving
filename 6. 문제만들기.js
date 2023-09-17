@@ -169,3 +169,4 @@ function battle(mypokemon) {
 }
 
 battle("꼬부기");
+//끝
