@@ -22,7 +22,9 @@ const item = {
 
 // 물품과 갯수를 확인하는 함수
 function checkItem(itemName, itemCount) {
-	if (item[itemName] === undefined || item[itemName] !== itemCount) {
+	if (item[itemName] === undefined) {
+		console.log(`${itemName} (품목 없음)`);
+	} else if (item[itemName] !== itemCount) {
 		console.log("전산표와 일치하지 않습니다.");
 	} else {
 		console.log("전산표와 일치합니다.");
@@ -31,3 +33,4 @@ function checkItem(itemName, itemCount) {
 
 checkItem("야채곱창", 5);
 checkItem("바나나우유", 8);
+checkItem("고추바사삭치킨", 3);

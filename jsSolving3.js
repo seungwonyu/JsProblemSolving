@@ -1,10 +1,8 @@
-function processArray(arr, numToCheck) {
+function process(arr, Check) {
 	const modifiedArray = arr.map((item) => item + 10);
 
-	if (modifiedArray.includes(numToCheck)) {
-		const filteredArray = modifiedArray.filter(
-			(item) => item !== numToCheck
-		);
+	if (modifiedArray.includes(Check)) {
+		const filteredArray = modifiedArray.filter((item) => item !== Check);
 		return filteredArray;
 	} else {
 		console.log("결과값이 없습니다.");
@@ -13,5 +11,5 @@ function processArray(arr, numToCheck) {
 }
 
 const arr = [1, 2, 3, 4, 5];
-const a = processArray(arr, 11);
+const a = process(arr, 11);
 console.log(a);
