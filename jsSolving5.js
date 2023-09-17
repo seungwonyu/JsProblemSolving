@@ -17,7 +17,7 @@ function car(거리) {
 		for (let i = 1; i <= 거리; i++) {
 			console.log(i + "km");
 		}
-	} else if (거리 > 40) {
+	} else {
 		console.log("안전 위험으로 시동을 종료했습니다");
 	}
 	return "시동이 꺼졌습니다";
