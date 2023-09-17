@@ -19,3 +19,6 @@ car(16);
 // 다음에 도전^ㅡ^
 // 도전하기!
 console.log("어려워요");
+console.log("깃이 왜이러냐");
+
+let a = math.max(2, 5);
